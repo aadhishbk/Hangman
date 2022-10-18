@@ -12,7 +12,7 @@ const getPuzzle = async (wordCount) =>{
 //using async - await
 /* const getCountry = async (countryCode) =>{
 
-    const response  = await fetch('http://api.countrylayer.com/v2/all?access_key=7c4d7cdec544e1fa0c91fdc8656db26e')
+    const response  = await fetch('/api.countrylayer.com/v2/all?access_key=7c4d7cdec544e1fa0c91fdc8656db26e')
     if(response.status === 200) {
         const data =  await response.json()
         return data.find((country) => country.alpha2Code === countryCode)
